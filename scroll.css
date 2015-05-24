@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix {
+    display: inline-block
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+body {
+    background-color: pink;
+    height: 100%;
+    width: 100%;
+}
+
+.frame {
+    border: 80px solid #fff;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    box-sizing: border-box;
+    z-index: 1000;
+    display: block;
+    overflow: hidden;
+}
+
+.content {
+    z-index: 100;
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.pull-left {
+    float: left;
+}
+
+.left-block {
+    position: relative;
+    display: block;
+    width: 50%;
+    height: 100%;
+}
+
+.right-block {
+    position: relative;
+    display: block;
+    width: 50%;
+    height: 100%;
+}
+
+
+.left-block .block {
+    position: absolute;
+    top: -560px;
+}
+
+.right-block .block {
+    position: absolute;
+    top: 560px;
+}
+
+.block.block-visible {
+    display: block;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+.block {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    top: 0px;
+    position: absolute;
+}
+
+
+.block1 {
+    background-color: red;
+}
+
+.block2 {
+    background-color: blue;
+}
+
+.block3 {
+    background-color: orange;
+}
+
+.block4 {
+    background-color: green;
+}
+
+.block5 {
+    background-color: darkgray;
+}
+
+.block6 {
+    background-color: #3f729b;
+}
+
+.block7 {
+    background-color: aqua;
+}
+
+.block8 {
+    background-color: black;
+}
+
+.block9 {
+    background-color: cyan;
+}
+
+.block10 {
+    background-color: turquoise;
+}
+
+.block11 {
+    background-color: maroon;
+}
+
+.block12 {
+    background-color: mediumpurple;
+}
+
+.block13 {
+    background-color: magenta;
+}
+
+.block14 {
+    background-color: gold;
+}
+
+.block15 {
+    background-color: silver;
+}
+
+.block16 {
+    background-color: brown;
+}
